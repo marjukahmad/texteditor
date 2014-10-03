@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script type="text/javascript" src="medium.js"></script>
+        <script type="text/javascript" src="prism.js"></script>
+        <script type="text/javascript" src="docs.js"></script>
+		
+		
+		
+        <link rel="stylesheet" type="text/css" href="docs.css">
+        <link rel="stylesheet" type="text/css" href="fonts.css">
+        <link rel="stylesheet" type="text/css" href="prism.css">
+		<link rel="stylesheet" type="text/css" href="medium.css">
+		
+    </head>
+	
+    <body>
+		
+		
+
+
+  <div id="article4" class="article demo">
+	  
+  </div>
+
+
+		
+    
+        <script>
+		
+		
+		
+		
+		var article4 = document.getElementById('article4'),
+		    article4Medium = new Medium({
+		        element: article4,
+		        mode: Medium.richMode,
+		        placeholder: 'start your story',
+		        attributes: null,
+		        tags: null,
+			    pasteAsText: false
+		    });
+
+		article4.highlight = function() {
+			if (document.activeElement !== article4) {
+				article4Medium.select();
+			}
+		};
+		
+		
+		
+        </script>
+    </body>
+</html>
